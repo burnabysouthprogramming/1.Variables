@@ -57,7 +57,7 @@ mper = 20
 The main problem for this style is that nobody, not even yourself, will be able to understand the variables created. When someone adds ```uper``` to ```qdyu``` and receive the number of ```549```, it will be more difficult to understand what the outcome means. Although a program can have hundreds of variables and can be tedious at times, it is always a good habit to created informative and readable variables.
 
 #####IMPORTANT TO NOTE: 
-* Certain symbols such as *s, /s or numbers cannot be used in variables since they mean something else.
+* Certain symbols such as *, / or numbers cannot be used in variables since they mean something else.
 * Variables are case-sensitive so ```Python``` is a different variable from ```python```
 * The ```=``` sign when putting a value to a variable __does not__ mean that the variable is _equivalent_ to the value. The values on the right side is __assigned__ to the variable on the left. (If still hard to comprehend, the practice underneath will demonstrate how variables are assigned)
 * Separate variables and work by only assigning variables at the top of a script (or function) in order to keep code tidy.
