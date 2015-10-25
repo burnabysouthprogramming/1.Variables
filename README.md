@@ -60,6 +60,7 @@ The main problem for this style is that nobody, not even yourself, will be able 
 * Certain symbols such as *s, /s or numbers cannot be used in variables since they mean something else.
 * Variables are case-sensitive so ```Python``` is a different variable from ```python```
 * The ```=``` sign when putting a value to a variable __does not__ mean that the variable is _equivalent_ to the value. The values on the right side is __assigned__ to the variable on the left. (If still hard to comprehend, the practice underneath will demonstrate how variables are assigned)
+* Separate variables and work by only assigning variables at the top of a script (or function) in order to keep code tidy.
 
 ##Mini-Lesson : Operators
 In order to use variables effectively, the programmer must learn a set of operators. Operators will be covered in more depth in a later lesson, however these are a few that should be used early on:
@@ -71,9 +72,23 @@ In order to use variables effectively, the programmer must learn a set of operat
 * ```**``` is used for __exponents__
 
 #Try It Yourself - Practice Exercises
+__Use ```print(insertVariableHere)``` in order to print and see the variables inside the brackets__<br><br>
+Example of a short and simple program:
+```py
+totalTuitionCost = 50000
+startFunds = 15000
+timesBoughtRiotPoints = 200
+
+totalFunds = startFunds - (50 * timesBoughtRiotPoints)
+print (totalFunds)
+print (totalTuitionCost - totalFunds)
+```
+Take some time to study this program which shows how a university student used all his university funds to buy $50 RP cards and in the end, he is left with 5000 dollars in his savings account (the amount is printed with ```print(totalFunds)```). Once he gets into university he will have 45000 dollars left to pay off (the amount is printed with ```print (totalTuitionCost - totalFunds)```).<br><br><br>
+
 Clear everything in the script before starting. Ask Kallen or a friend next to you if you need help; don't be afraid to ask for assistance!<br><br>
 
-__Use ```print(insertVariableHere)``` in order to print and see the variables inside the brackets__
 
-1. In a blank script, create a variable that describes the number of Morrey's cats. Assign a value to the variable that states Morrey has 12 cats.<br><br>
-2. If Morrey
+1. In a blank script, create a variable that describes the total number of Morrey's cats. Assign a value to the variable that states Morrey has 12 cats. Print the variable.<br><br>
+2. One of Morrey's cats got pregnant and now Morrey has a new litter of kitties. There are 4 kitties in the litter. Add 4 cats to the total number of cats variable. Print the variable.<br><br>
+3. On Monday, Morrey wants to give each cat some food. Create a new variable and assign a value that states the total amount of cat food is 1500 grams.<br><br>
+4. Find the _remainder_ amount of cat food when each of Morrey's cats is given 100 grams. Use the two variables you previously created to complete this task. Print the result.<br><br>
