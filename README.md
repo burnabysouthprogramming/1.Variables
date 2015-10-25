@@ -94,5 +94,5 @@ __Clear everything in the script before starting. Ask Kallen or a friend next to
 4. Print the _remainder_ amount of cat food when each of Morrey's cats is given 100 grams. Use the two variables you previously created to complete this task.<br><br>
 5. __BONUS__ How many grams each cat get the next day (Tuesday) with only the remainder of the amount of cat food on Monday?<br><br>
 
-__Save all completed work by pressing "Share Project" on the top left and saving the URL in an email to either yourself or kallentu@hotmail.ca. Files sent to me, with granted permission from the owner, will be put on this GitHub account to showcase to peers.
+__Save all completed work by pressing "Share Project" on the top left and saving the URL in an email to either yourself or kallentu@hotmail.ca. Files sent to Kallen, with granted permission from the owner, will be put on this GitHub account to showcase to peers.
 Answers to the exercises will be posted here on the next club day.__
