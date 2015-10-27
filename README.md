@@ -7,7 +7,7 @@ Variables are essential to any computer program. Variables hold different values
 In a variable there is the __name__ which is on the left side (which you choose what the variable name is), an __```=``` sign__ after the name that assigns a __value__ (which is put after the ```=``` sign) to the variable name.
 
 ```py
-thisIsAVariable = 10
+this_is_a_variable = 10
 ```
 
 ##Styles
@@ -77,8 +77,10 @@ In order to use variables effectively, the programmer must learn a set of operat
 
 Example:
 ```py
-exponent_value = 7 ** 2
+exponent_value = 7 ** 3
+print(exponent_value)
 ```
+The ```exponent_value``` variable would be printed as the number ```343```.
 
 #Try It Yourself - Practice Exercises
 __Use ```print(insertVariableHere)``` in order to print and see the variables inside the brackets__<br><br>
@@ -86,9 +88,10 @@ Example of a short and simple program:
 ```py
 totalTuitionCost = 50000
 startFunds = 15000
+riotPointsCardDollars = 50
 timesBoughtRiotPoints = 200
 
-totalFunds = startFunds - (50 * timesBoughtRiotPoints)
+totalFunds = startFunds - (riotPointsCardDollars * timesBoughtRiotPoints)
 print (totalFunds)
 print (totalTuitionCost - totalFunds)
 ```
@@ -131,3 +134,5 @@ x = 2
 print x, y
 ```
 <br>
+* Make a program that demonstrates the precedence of operators. (Ex. The computer does ```**``` before any other operator, then goes on to do ```*``` and ```/```. Use at least 3 variables and all of the operators above. Print answers.<br><br>
+* Make a program similar to the example above, depicting the cost of university tuition and events (with a monetary value) that lower __or__ increase debt during college. Use at least 5 different variables.
