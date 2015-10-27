@@ -2,22 +2,26 @@
 
 [Python Compiler - Click here] (http://www.tutorialspoint.com/execute_python_online.php)
 
-Variables are essential to any computer program. Variables hold different values that can easily be changed later in the program. In a variable, you _store_ values like how a cardboard box can store shoes. Likewise, one can label their shoe boxes for different types of shoes similarily to how someone can name variables for various purposes.
+Variables are essential to any computer program. Variables hold different values that can easily be changed later in the program. In a variable, you _store_ values like how a cardboard box can store shoes. One can label their shoe boxes for different types of shoes similarily to how someone can name variables for various purposes.
 
 In a variable there is the __name__ which is on the left side (which you choose what the variable name is), an __```=``` sign__ after the name that assigns a __value__ (which is put after the ```=``` sign) to the variable name.
 
+```py
+thisIsAVariable = 10
+```
+
 ##Styles
-A good variable name is short, to the point, and is descriptive enough to describe its purpose. There are styles of naming variables, especially when they get very long. It is __recommended to stick with one style__ while you code in order to keep the program neat.
+A good variable name is short, to the point, and is descriptive enough to describe its purpose. There area few styles of naming variables. It is __recommended to stick with one style__ while you code in order to keep the program neat.
 Different programmers prefer different styles such as:
 
-__Underscore__
+__The Underscore__
 ```py
 move_block_distance = 20
 character_health = 100
 ```
 With the Underscore style, all words in the variable are lower-case, separated by an underscore. This is the style most commonly used by Python programmers.
 
-__Camel Casing__
+__The Camel Casing__
 ```py
 moveBlockDistance = 20
 characterHealth = 200
@@ -29,7 +33,7 @@ The examples above are clearly defined; one can see how the variable ```move_blo
 
 ####Here are some examples of bad variables and bad styles:
 
-__The Caps Abuser__
+__The Screamer__
 ```py
 ENEMYHEALTH = 36
 BULLETDAMAGE = 4
@@ -42,7 +46,7 @@ __Mr. LongJohns__
 enemy_monster_tree_scare_green_health_after_two_days_at_night = 2
 varTakenFromTurningBecauseItsWithThisScriptFromTheBeginning = 10
 ```
-Variables are supposed to be descriptive, _yes_, however let a variable be a short description and one that does not take a tremendously long time to read.
+Variables are supposed to be descriptive, _yes_, however a variable should be a short description and one that does not take a tremendously long time to read.
 
 __The Face Smasher / The Lazy Potato__
 ```py
@@ -54,13 +58,13 @@ wper = 12
 uper = 534
 mper = 20
 ```
-The main problem for this style is that nobody, not even yourself, will be able to understand the variables created. When someone adds ```uper``` to ```qdyu``` and receive the number of ```549```, it will be more difficult to understand what the outcome means. Although a program can have hundreds of variables and can be tedious at times, it is always a good habit to created informative and readable variables.
+The main problem for this style is that nobody, not even yourself, will be able to understand the variables and what they mean. When someone adds ```uper``` to ```qdyu``` and the computer outputs the number of ```549```, it will be more difficult to understand what the outcome means. Although a program can have hundreds of variables and can be tedious at times, it is always a good habit to create informative and readable variables.
 
 #####IMPORTANT TO NOTE: 
 * Certain symbols such as *, / or numbers cannot be used in variables since they mean something else.
 * Variables are case-sensitive so ```Python``` is a different variable from ```python```
 * The ```=``` sign when putting a value to a variable __does not__ mean that the variable is _equivalent_ to the value. The values on the right side is __assigned__ to the variable on the left. (If still hard to comprehend, the practice underneath will demonstrate how variables are assigned)
-* Separate variables and work by only assigning variables at the top of a script (or function) in order to keep code tidy.
+* Variable assignments are usually done at the top of the document or function.
 
 ##Mini-Lesson : Operators
 In order to use variables effectively, the programmer must learn a set of operators. Operators will be covered in more depth in a later lesson, however these are a few that should be used early on:
@@ -70,6 +74,11 @@ In order to use variables effectively, the programmer must learn a set of operat
 * ```/``` is used to __divide__
 * ```%``` is used to divide then find the __remainder__
 * ```**``` is used for __exponents__
+
+Example:
+```py
+exponent_value = 7 ** 2
+```
 
 #Try It Yourself - Practice Exercises
 __Use ```print(insertVariableHere)``` in order to print and see the variables inside the brackets__<br><br>
@@ -92,7 +101,33 @@ __Clear everything in the script before starting. Ask Kallen or a friend next to
 2. One of Morrey's cats got pregnant and now Morrey has a new litter of kitties. There are 4 kitties in the litter. Add 4 cats to the total number of cats variable. Print the variable.<br><br>
 3. On Monday, Morrey wants to give each cat some food. Create a new variable and assign a value that states the total amount of cat food is 1500 grams. Print the variable.<br><br>
 4. Print the _remainder_ amount of cat food when each of Morrey's cats is given 100 grams. Use the two variables you previously created to complete this task.<br><br>
-5. __BONUS__ How many grams each cat get the next day (Tuesday) with only the remainder of the amount of cat food on Monday?<br><br>
+5. __BONUS__ How many grams would each cat get the next day (Tuesday) with only the remainder of the amount of cat food on Monday?<br><br>
 
 __Save all completed work by pressing "Share Project" on the top left and saving the URL in an email to either yourself or kallentu@hotmail.ca. Files sent to Kallen, with granted permission from the owner, will be put on this GitHub account to showcase to peers.
 Answers to the exercises will be posted here on the next club day.__
+
+####More Practice:
+* Create variable ```one``` and ```two``` with different values. _Assign_ the second variable to the first with ```=```. Print out the first variable. Then print out the second variable. What happened with each variable?<br><br>
+* What are the outputs of this program?
+```py
+a, b = 1, 2
+print (a)
+print (b)
+```
+<br>
+* What are the outputs of this program?
+```py
+a, b = 3, 4
+a, b = b, a
+print (a)
+print (b)
+```
+<br>
+* What are the outputs of this program?
+```py
+x = 4
+y = x + 1
+x = 2
+print x, y
+```
+<br>
